@@ -1,0 +1,22 @@
+{
+  "name": "pickuplineio",
+  "version": "1.0.1",
+  "description": "this is package for website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankettank66/pickupline.github.io.git"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "SANKET TANK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankettank66/pickupline.github.io/issues"
+  },
+  "homepage": "https://github.com/sankettank66/pickupline.github.io#readme"
+}
