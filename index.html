@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PICKUP LINE GENERATOR</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-
     <!-- <div class="container-fluid">
         <center>
             <h1 class="hea container-fluid">
@@ -35,15 +34,34 @@
             </h1>
         </center>
     </div> -->
-    <div class="bg container-fluid"></div>
-    <div class="bg bg2 container-fluid"></div>
-    <div class="bg bg3 container-fluid"></div>
-    <div class="content">
+    <div class="bg container"></div>
+    <div class="bg bg2 container"></div>
+    <div class="bg bg3 container"></div>
+    <div class="container content">
         <h1>PICK-UP LINE SELECTOR</h1>
-        <button onclick="clickMe()">CLICK THIS BUTTON TO GENERATE PICK UP LINE</button>
+        <button onclick="clickMe()">
+            CLICK THIS BUTTON TO GENERATE PICK UP LINE</button><br />
         <div id="cont"></div>
+        <br />
         <button class="tooltiptext" id="btn" onclick="copyToClip()" class="btn-secondary" data-toggle="tooltip"
-            data-placement="bottom" title="COPY TO CLIPBOARD">COPY TO CLIPBOARD</button>
+            data-placement="bottom" title="COPY TO CLIPBOARD">
+            COPY TO CLIPBOARD
+        </button>
+    </div>
+    <div id="mainc" class="d-flex justify-content-between">
+        <div class="email block">
+            <img id="left" src="./gmail1.png" alt="gmaillogo" />: <a id="link" onclick="copyToClip()">
+                sankettank66@gmail.com</a>
+        </div>
+        <div class="github center block">
+            <img src="./github1.png" alt="githublogo" /> <a id="link" href="https://github.com/sankettank66/"
+                target="_blank">MY
+                GITHUB</a>
+        </div>
+        <div class="linkedin right block">
+            <img class="imgg" src="./download.png" alt="logo of linkedin" /> :<a id="link"
+                href="https://www.linkedin.com/in/sanket-tank-569674200/" target="_blank">MY LINKEDIN</a>
+        </div>
     </div>
 </body>
 <script src="./index.js"></script>
