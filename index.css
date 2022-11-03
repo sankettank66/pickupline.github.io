@@ -5,6 +5,7 @@
 } */
 button {
   color: black;
+  font-family: "Raleway", sans-serif;
   background-color: white;
   border-radius: 50%;
 }
@@ -54,12 +55,14 @@ body {
   /* border-radius: %; */
   /* margin-bottom: 20px; */
   margin-top: 20px;
+  margin-bottom: 20px;
   /* /* font-family: tang; */
   /* font-family: "Tangerine", cursive; */
   /* font-family: "Fasthand", cursive;
    */
   font-family: "Dancing Script", cursive;
   font-size: xx-large;
+  display: inline-block;
   font-weight: 900;
 }
 h1 {
@@ -115,4 +118,46 @@ h1 {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+.github {
+  margin-right: 100px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+.block {
+  display: inline-block;
+}
+
+#link:hover {
+  color: yellow;
+}
+#link {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+#mainc {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 600px) {
+  #mainc {
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .email,
+  .github,
+  .linkedin {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* justify-content: center;
+     */
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .github {
+    display: inline;
+    margin-left: 100px;
+  }
 }
