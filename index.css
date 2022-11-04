@@ -55,16 +55,16 @@ body {
   /* font-family: "Tangerine", cursive; */
   /* font-family: "Fasthand", cursive;
    */
-  font-family: "Dancing Script", cursive;
   font-size: xx-large;
   display: inline-block;
   font-weight: 900;
+  font-family: "Raleway", sans-serif;
 }
 h1 {
   /* font-family: "Tangerine", cursive; */
   /* font-family: monospace;
-   */
-  font-family: "Raleway", sans-serif;
+    */
+  font-family: "Dancing Script", cursive;
   /* font-size: small; */
 }
 #btn {
@@ -114,7 +114,9 @@ h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
+.gene {
+  margin-top: 1px;
+}
 img {
   width: 20px;
   height: 20px;
@@ -122,13 +124,16 @@ img {
 .block {
   display: inline-block;
 }
-
-#link:hover {
+.link:visited {
+  color: white;
+}
+.link:hover {
   color: yellow;
 }
-#link {
+.link {
   color: white;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 #mainc {
   height: 30px;
@@ -160,7 +165,7 @@ img {
 /* button effect */
 .glow-on-hover {
   width: 220px;
-  height: 50px;
+  height: 53px;
   border: none;
   outline: none;
   color: #fff;
