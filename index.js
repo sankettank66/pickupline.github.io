@@ -29,7 +29,6 @@ let box = ['I hope you know CPR, because you just took my breath away!',
     'I think there’s something wrong with my phone. Could you try calling it to see if it works?',
     'Hi, I just wanted to thank you for the gift. (pause) I’ve been wearing this smile ever since you gave it to me.',
     'Are you an electrician? Because you’re definitely lighting up my day/night!',
-    'I’ve heard it said that kissing is the ‘language of love.’ Would you care to have a conversation with me about it sometime?',
     'I always thought happiness started with an ‘h,’ but it turns out mine starts with ‘u.’',
     'I believe in following my dreams. Can I have your Instagram?',
     'Do you know what the Little Mermaid and I have in common? We both want to be part of your world.',
@@ -41,7 +40,6 @@ let box = ['I hope you know CPR, because you just took my breath away!',
     'If you were a Transformer, you’d be ‘Optimu Fine.’',
     'Is your name Google? Because you have everything I’m searching for.',
     'Do you ever get tired from running through my thoughts all night?',
-    'You know, they say that love is when you don’t want to sleep because reality is better than your dreams. And after seeing you, I don’t think I ever want to sleep again.',
     'Your hand looks heavy—can I hold it for you?',
     'Are you a time traveler? Because I absolutely see you in my future.',
     'Do you know what my shirt is made of? Boyfriend material.',
@@ -55,13 +53,12 @@ let box = ['I hope you know CPR, because you just took my breath away!',
     'I don’t know your name, but I’m sure it’s as beautiful as you are. I’m (your name).',
     'You are astoundingly gorgeous, but I can tell that’s the least interesting thing about you. I’d love to know more.',
     'The sparkle in your eyes is so bright, the sun must be jealous.',
-    'One night I looked up at the stars and thought, ‘Wow, how beautiful.’ But now that I’m looking at you, nothing else can compare.',
     'If I had a nickel for every time I saw someone as beautiful as you, I’d still only have five cents.',
     'If beauty were time, you’d be eternity.',
     'I think the only way you could possibly be more beautiful is if I got to know you.',
     'I don’t know which is prettier today—the weather, or your eyes.',
     'I swear someone stole the stars from the sky and put them in your eyes.',
-    'In my opinion, there are three kinds of beautiful: Cute, pretty, and sexy. Somehow, you manage to be all three.Cute and Cheesy Pick Up Lines for Girls',
+    'In my opinion, there are three kinds of beautiful: Cute, pretty, and sexy. Somehow, you manage to be all three.',
     'I’m not usually religious, but when I saw you, I knew you were the answer to my prayers.',
     '(Hold out your hand) Hey, I’m going for a walk. Would you mind holding this for me?',
     'Do you believe in love at first sight, or should I try walking by again?',
@@ -89,9 +86,7 @@ let box = ['I hope you know CPR, because you just took my breath away!',
     'I started reading/watching an interesting book/show last week, and I’d love to discuss it with someone. Have you heard of it?',
     'You see my friend over there? S/he wants to know if you think I’m cute.',
     'I was going to call you beautiful, but then I realized I don’t have your number yet. Them: No (or Yes)',
-    'You: Are you good at math?You: Me neither (or Me too). But the only number I care about is yours.89. I’m surprised the restaurant/bar/etc. hasn’t asked you to leave yet. You’re so beautiful you’re making all the other girls look bad.',
     'Excuse me, I don’t mean to intrude, but you owe me a drink (pause), because when I saw you, I dropped mine.Unsplash',
-    'Are you any good at boxing? Because you look like a knockout.92. It’s never easy meeting a complete stranger—especially one as beautiful as you—without being properly introduced. But can we try anyway?',
     'I wish I’d paid more attention to science in high school, because you and I’ve got chemistry and I want to know all about it.',
     'Hi, my name is (your name), but you can call me tonight or tomorrow.',
     'Do I know you? (pause) Oh, sorry, it’s just that you look just like my next girlfriend.',
@@ -315,13 +310,13 @@ let box = ['I hope you know CPR, because you just took my breath away!',
 function clickMe() {
     document.getElementById('btn').style.display = 'inline';
     document.getElementById('cont').style.border = 'black 1px solid';
-    let ran = document.getElementById('cont').innerHTML = `${box[Math.floor(Math.random() * 306)]}`;
+    let ran = document.getElementById('cont').innerHTML = `${box[Math.floor(Math.random() * 300)]}`;
     // document.getElementById('cont').innerHTML = `${ran}`;
-    console.log(box[Math.floor(Math.random() * 98)]);
+    // console.log(box[Math.floor(Math.random() * 98)]);
 }
 function copyToClip() {
     let copyText = document.getElementById('cont').innerText;
-    console.log(copyText);
+    // console.log(copyText);
     navigator.clipboard.writeText(`${copyText}`);
     alert('COPIED TO CLIPBOARD!!')
 }
