@@ -112,13 +112,26 @@ body {
   font-family: "Raleway", sans-serif;
 }
 p {
-  /* font-family: "Tangerine", cursive; */
+  margin: 0px;
+  padding: 0%;
+}
+#head {
   /* font-family: monospace;
-      */
+  */
   font-family: "Dancing Script", cursive;
   /* font-size: lar; */
-  margin-bottom: 150px;
+  margin-bottom: -10px;
   font-size: calc(2rem + 1.5vw);
+}
+#nextline {
+  /* font-family: "Times New Roman", Times, serif;
+   */
+  /* font-family: "Walter Turncoat", cursive;
+   */
+  font-family: "Zilla Slab", serif;
+  font-size: x-large;
+  font-weight: 400;
+  /* font-family: ; */
 }
 #btn {
   display: none;
@@ -180,6 +193,11 @@ img {
   }
   #cont {
     font-size: medium;
+  }
+  #nextline {
+    font-size: large;
+    /* font-variant: small-caps; */
+    /* font-weight: 550; */
   }
 }
 
